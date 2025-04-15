@@ -1,10 +1,39 @@
 @import "tailwindcss";
 
+@font-face {
+  font-family: "Circle Rounded Bold";
+  src: local("Antitype"),
+    url("/fonts/CirceRounded-Bold.otf") format("opentype") tech(color-COLRv1),
+    url("/fonts/CirceRounded-Bold.otf.otf") format("opentype");
+}
+@font-face {
+  font-family: "Circle Rounded Extra Bold";
+  src: local("Antitype"),
+    url("/fonts/CirceRounded-ExtraBold.otf") format("opentype")
+      tech(color-COLRv1),
+    url("/fonts/CirceRounded-ExtraBold.otf.otf") format("opentype");
+}
+
 :root {
   --primary: #d74132;
   --secondary: #73cb65;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Circle Rounded Bold";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+strong,
+b {
+  font-family: "Circle Rounded Extra Bold";
+}
+
+.bg-banner {
+  background: transparent url("../../public/bg-banner.jpg") scroll no-repeat
+    center / cover;
 }
