@@ -1,11 +1,13 @@
 import Image from "next/image";
 import Header from "./layout/Header";
 import greene from "../../public/greene.svg";
-import greeneSide from "../../public/greene-side.svg";
+import lazoxWhite from "../../public/logo-lazox-whit.svg";
 import trianguli from "../../public/triangu.svg";
+import seedy from "../../public/seedy.svg";
 import circuli from "../../public/circuli.svg";
 import bomby from "../../public/bomby.svg";
 import yellowCross from "../../public/yellow-cros.svg";
+import yellySurprise from "../../public/yelly-surprise.svg";
 import greenHeart from "../../public/green-heart.svg";
 import smileface from "../../public/smileface.svg";
 import NotDeskTop from "./components/NotDesktop/NotDeskTop";
@@ -53,7 +55,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen">
+      <section className="relative pt-32 pb-56 px-5 flex flex-col items-center justify-center min-h-screen">
         <h1 className="text-5xl text-center text-[var(--primary)]">
           ¿Cuál es nuestra razón de ser?
         </h1>
@@ -64,6 +66,10 @@ export default function Home() {
           Mejorar el entorno social y emocional de las familias, ofreciendo un
           espacio seguro y diseñado especificamente para este proposito
         </p>
+
+        <div className="w-full flex justify-center -bottom-44 absolute z-10">
+          <Image className="" src={seedy} alt="Trianguli " />
+        </div>
       </section>
 
       <section className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen bg-amber-300">
@@ -130,8 +136,18 @@ export default function Home() {
         </p>
       </section>
 
-      <footer className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--primary)] text-white">
-        <h1>Don lole</h1>
+      <footer className="relative pt-48 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--primary)] text-white text-2xl overflow-hidden ">
+        <Image className="" src={lazoxWhite} alt="Circuli " />
+
+        <p> 55 2118 7365</p>
+        <p>rossy@semillerosdesentido.org</p>
+        <p>Síguenos en:</p>
+
+        <Image
+          className="-bottom-[200px] relative"
+          src={yellySurprise}
+          alt="Circuli "
+        />
       </footer>
       {/* <NotDeskTop /> */}
     </>
