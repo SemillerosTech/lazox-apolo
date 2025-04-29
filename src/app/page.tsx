@@ -10,7 +10,6 @@ import yellowCross from "../../public/yellow-cros.svg";
 import yellySurprise from "../../public/yelly-surprise.svg";
 import greenHeart from "../../public/green-heart.svg";
 import smileface from "../../public/smileface.svg";
-import NotDeskTop from "./components/NotDesktop/NotDeskTop";
 // import AnimatedScrollElement from "./components/AnimatedScrollElement/AnimatedScrollElement";
 
 export default function Home() {
