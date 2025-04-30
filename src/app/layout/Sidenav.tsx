@@ -15,7 +15,7 @@ const Sidenav: React.FC<navState> = ({ open = false }) => {
   return (
     <>
       <Image
-        className="w-[40px] absolute top-3 left-2"
+        className="w-[40px] absolute top-3 left-2 md:hidden"
         src={mobileMenu}
         alt="Next.js logo"
         priority
@@ -23,8 +23,8 @@ const Sidenav: React.FC<navState> = ({ open = false }) => {
       />
 
       <aside
-        className={`fixed top-0 left-0 bg-[var(--primary)] z-30 w-full h-full text-white  items-center justify-center text-4xl  flex-col ${
-          isOpen === true ? "flex" : "hidden"
+        className={`fixed top-0 -left-[500px] bg-[var(--primary)] z-30 w-full h-full text-white  items-center justify-center text-4xl flex flex-col transition-all md:hidden ${
+          isOpen === true ? "left-0" : "-left-[500px]"
         } `}
       >
         <span

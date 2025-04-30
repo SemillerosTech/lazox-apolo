@@ -124,14 +124,48 @@ export default function Home() {
         <Image className="mb-24" src={circuli} alt="Circuli " />
       </section>
 
-      <section className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--secondary)]">
-        <h1 className="text-5xl text-center text-white">
-          Nuestra razón de ser
+      <section className="bg-[var(--primary)] relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen ">
+        <h1 className="text-5xl text-center text-white mb-10">
+          ¿Qué es la logoterapia?
         </h1>
 
-        <p className="text-3xl text-center text-white">
-          Mejorar el entorno social y emocional de las familias ofreciendo un
-          espacio seguro y diseñado específicamente para ee propósito
+        <p className="text-3xl  text-white mb-5">
+          Expresar emociones, deseos y pensamientos de una manera más accesible;
+          es decir hacer descubrimientos y exploraciones existenciales
+        </p>
+      </section>
+
+      <section className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen bg-amber-300">
+        <h1 className="text-5xl text-center text-[var(--primary)]">
+          ¿Que es un espacio lúdico?
+        </h1>
+
+        <p className="text-3xl text-center text-[var(--primary)]">
+          Se refiere a áreas habilitadas para fomentar la socialización y
+          creatividad a través del juego
+        </p>
+      </section>
+
+      <section className="relative pt-32 pb-20 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--secondary)] text-center">
+        <h1 className="text-5xl text-center text-white mb-10">
+          El juego y la logoterapia
+        </h1>
+
+        <p className="text-3xl  text-white mb-5">
+          Expresar emociones, deseos y pensamientos de una manera más accesible;
+          es decir hacer descubrimientos y exploraciones existenciales
+        </p>
+
+        <p className="text-3xl  text-white mb-5">
+          Se pueden aprender herramientas y habilidades interpersonales para el
+          crecimiento personal y el desarrollo del potencial humano.
+        </p>
+
+        <p className="text-3xl  text-white">
+          Se pueden facilitar la aplicación práctica de las reflexiones o
+          descrubrimientos durante el proceso terapéutico, ayudando a las
+          personas a integrar un sentido más profundo de propósito y significado
+          en sus vidas.
         </p>
       </section>
 
