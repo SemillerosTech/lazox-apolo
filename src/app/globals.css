@@ -34,6 +34,71 @@ b {
 }
 
 .bg-banner {
-  background: transparent url("../../public/bg-banner.jpg") scroll no-repeat
-    center / cover;
+  background: black url("../../public/bg-banner.jpg") scroll no-repeat center /
+    cover;
+}
+
+/* ANIMATIONS */
+
+.floating-image-b {
+  -webkit-animation-name: animation-t; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: animation-t;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation-t {
+  0% {
+    bottom: -0.5em;
+  }
+  50% {
+    bottom: 0.5em;
+  }
+  100% {
+    bottom: -0.5em;
+  }
+}
+
+.floating-image-t {
+  -webkit-animation-name: animation-b; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: animation-b;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation-b {
+  0% {
+    top: -0.5em;
+  }
+  50% {
+    top: 0.5em;
+  }
+  100% {
+    top: -0.5em;
+  }
+}
+
+.floating-image-footer {
+  -webkit-animation-name: animation-f; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+  animation-name: animation-f;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animation-f {
+  0% {
+    bottom: -200px;
+  }
+  50% {
+    bottom: -100px;
+  }
+  100% {
+    bottom: -200px;
+  }
 }
