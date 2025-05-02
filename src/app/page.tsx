@@ -20,8 +20,11 @@ export default function Home() {
     <>
       <Header />
 
-      <section className="bg-banner h-[calc(100vh-62px)] flex flex-col justify-center items-center relative overflow-hidden">
-        <button className="bg-[var(--primary)] text-white p-6 rounded-full  hover:bg-red-700 transition-all shadow-xl shadow-2xl">
+      <section
+        id="home"
+        className="bg-banner h-[calc(100vh-62px)] flex flex-col justify-center items-center relative overflow-hidden"
+      >
+        <button className="bg-[var(--primary)] text-white p-6 rounded-full  hover:bg-red-700 transition-all  shadow-2xl">
           <b className="text-5xl ">Conoce LAZOX</b>
         </button>
 
@@ -37,7 +40,10 @@ export default function Home() {
         />
       </section>
 
-      <section className="bg-[var(--primary)] min-h-screen relative pt-32 flex flex-col items-center justify-center">
+      <section
+        id="lazox"
+        className="bg-[var(--primary)] min-h-screen relative pt-32 flex flex-col items-center justify-center"
+      >
         <div className="container mx-auto px-5 mb-10">
           <Image className="absolute right-0 -top-20" src={bomby} alt="Grene" />
 
@@ -68,7 +74,10 @@ export default function Home() {
         />
       </section>
 
-      <section className="relative pt-32 pb-56 px-5 flex flex-col items-center justify-center min-h-screen">
+      <section
+        id="reason"
+        className="relative pt-32 pb-56 px-5 flex flex-col items-center justify-center min-h-screen"
+      >
         <h1 className="text-5xl text-center text-[var(--primary)]">
           ¿Cuál es nuestra razón de ser?
         </h1>
@@ -89,7 +98,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen bg-amber-300">
+      <section
+        id="mission"
+        className="relative pt-32 px-5 flex flex-col items-center justify-center min-h-screen bg-amber-300"
+      >
         <h1 className="text-5xl text-center text-[var(--primary)]">
           Nuestra misión es:
         </h1>
@@ -100,7 +112,10 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="relative pt-32 py-5 flex flex-col items-center justify-center min-h-screen ">
+      <section
+        id="values"
+        className="relative pt-32 py-5 flex flex-col items-center justify-center min-h-screen "
+      >
         <h1 className="text-5xl text-center text-[var(--secondary)] mb-10">
           Nuestros Valores
         </h1>
@@ -144,7 +159,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="bg-[var(--primary)] relative py-32 px-5 flex flex-col items-center justify-center min-h-screen ">
+      <section
+        id="logoteraphy"
+        className="bg-[var(--primary)] relative py-32 px-5 flex flex-col items-center justify-center min-h-screen "
+      >
         <h1 className="text-5xl text-center text-white mb-10">
           ¿Qué es la logoterapia?
         </h1>
@@ -183,7 +201,10 @@ export default function Home() {
         </p>
       </section>
 
-      <section className="relative pt-32 pb-20 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--secondary)] text-center">
+      <section
+        id="logogame"
+        className="relative pt-32 pb-20 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--secondary)] text-center"
+      >
         <h1 className="text-5xl text-center text-white mb-10">
           El juego y la logoterapia
         </h1>
@@ -212,7 +233,10 @@ export default function Home() {
         </p>
       </section>
 
-      <footer className="relative pt-48 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--primary)] text-white text-2xl overflow-hidden ">
+      <footer
+        id="contact"
+        className="relative pt-48 px-5 flex flex-col items-center justify-center min-h-screen bg-[var(--primary)] text-white text-2xl overflow-hidden "
+      >
         <Image className="" src={lazoxWhite} alt="Circuli " />
 
         <p> 55 2118 7365</p>

@@ -20,24 +20,78 @@ const Header = () => {
             priority
           />
 
-          <ul className=" hidden lg:flex">
-            <li className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full">
-              Conoce Lazox
+          <ul className="hidden lg:flex">
+            <li>
+              <a
+                href="#home"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Inicio
+              </a>
             </li>
-            <li className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full">
-              Servicios
+            <li>
+              <a
+                href="#lazox"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Conoce Lazox
+              </a>
             </li>
-            <li className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full">
-              Nuestra razón de ser
+            <li>
+              <a
+                href="#reason"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Servicios
+              </a>
             </li>
-            <li className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full">
-              Nuestra Misión
+            <li>
+              <a
+                href="#reason"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Nuestra razón de ser
+              </a>
             </li>
-            <li className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full">
-              Nuestros Valores
+            <li>
+              <a
+                href="#mision"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Nuestra Misión
+              </a>
             </li>
-            <li className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full">
-              Contacto
+            <li>
+              <a
+                href="#values"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Nuestros Valores
+              </a>
+            </li>
+            <li>
+              <a
+                href="#logoteraphy"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Logoterapia
+              </a>
+            </li>
+            <li>
+              <a
+                href="#logogame"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Logoteca
+              </a>
+            </li>
+            <li>
+              <a
+                href="#contact"
+                className="p-3 hover:bg-amber-300 focus:bg-amber-300 rounded-full block"
+              >
+                Contacto
+              </a>
             </li>
           </ul>
         </div>

@@ -19,6 +19,10 @@
   --secondary: #73cb65;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Circle Rounded Bold";
 }
