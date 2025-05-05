@@ -15,8 +15,10 @@
 }
 
 :root {
-  --primary: #d74132;
-  --secondary: #73cb65;
+  --primary: #fe1919;
+  --secondary: #00d34e;
+  --complement: #f4d941;
+  --semilleros: #233567;
 }
 
 html {
