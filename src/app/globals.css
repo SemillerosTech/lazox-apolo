@@ -19,6 +19,9 @@
   --secondary: #00d34e;
   --complement: #f4d941;
   --semilleros: #233567;
+
+  --crayolaGreen: #00502e;
+  --crayolaYellow: #ffcc33;
 }
 
 html {
@@ -106,5 +109,16 @@ b {
   }
   100% {
     bottom: -200px;
+  }
+}
+
+.bg-crayola {
+  background: transparent url("/sala-crayola-mobile.jpg") scroll no-repeat
+    center / 120%;
+}
+
+@media (min-width: 768px) {
+  .bg-crayola {
+    background-image: url("/sala-crayola.jpg");
   }
 }
