@@ -14,11 +14,21 @@ import friends from "../../public/happy-three-friends.svg";
 import lokini from "../../public/yelly.svg";
 import makeSense from "../../public/make-sense.svg";
 import space from "../../public/espacio-ludico.png";
+import crayolaLogo from "../../public/crayola-logo.webp";
 
 export default function Home() {
   return (
     <>
       <Header />
+      <a
+        href="https://crayola.lazox.com.mx/"
+        className="sticky top-0 left-0 w-full z-50 shadow-lg bg-[var(--crayolaYellow)] flex items-center justify-center p-3"
+      >
+        <Image className="w-[50px] mr-2" src={crayolaLogo} alt="Logo Crayola" />
+        <p className="text-[var(--crayolaGreen)] text-xl lg:text-2xl font-bold">
+          Productos Crayola a precios especiales
+        </p>
+      </a>
 
       <section
         id="home"
