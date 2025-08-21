@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: "Circle Rounded Bold";
-  src: local("Antitype"),
-    url("/fonts/CirceRounded-Bold.otf") format("opentype") tech(color-COLRv1),
-    url("/fonts/CirceRounded-Bold.otf") format("opentype");
+  src: url("/fonts/CirceRounded-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
 }
+
 @font-face {
   font-family: "Circle Rounded Extra Bold";
-  src: local("Antitype"),
-    url("/fonts/CirceRounded-ExtraBold.otf") format("opentype")
-      tech(color-COLRv1),
-    url("/fonts/CirceRounded-ExtraBold.otf") format("opentype");
+  src: url("/fonts/CirceRounded-ExtraBold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 :root {
