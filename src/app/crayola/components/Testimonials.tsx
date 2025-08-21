@@ -10,8 +10,8 @@ const Testimonials: React.FC = () => {
     {
       quote:
         "Llevo 5 años comprando aquí los útiles de mis 3 hijos. La calidad y el precio no se comparan con ningún lado",
-      author: "María González",
-      role: "mamá de Sofía, Carlos y Ana",
+      author: "Mario González",
+      role: "papá de Sofía, Carlos y Ana",
       image: testimonialOne,
     },
     {

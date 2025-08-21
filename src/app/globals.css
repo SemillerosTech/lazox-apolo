@@ -4,14 +4,14 @@
   font-family: "Circle Rounded Bold";
   src: local("Antitype"),
     url("/fonts/CirceRounded-Bold.otf") format("opentype") tech(color-COLRv1),
-    url("/fonts/CirceRounded-Bold.otf.otf") format("opentype");
+    url("/fonts/CirceRounded-Bold.otf") format("opentype");
 }
 @font-face {
   font-family: "Circle Rounded Extra Bold";
   src: local("Antitype"),
     url("/fonts/CirceRounded-ExtraBold.otf") format("opentype")
       tech(color-COLRv1),
-    url("/fonts/CirceRounded-ExtraBold.otf.otf") format("opentype");
+    url("/fonts/CirceRounded-ExtraBold.otf") format("opentype");
 }
 
 :root {
